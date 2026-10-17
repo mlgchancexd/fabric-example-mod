@@ -1,5 +1,6 @@
 name: Build Mod 26.2
 on:
+on:
   push:
     branches: [ "**" ]
   pull_request:
