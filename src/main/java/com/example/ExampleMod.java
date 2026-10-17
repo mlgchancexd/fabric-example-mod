@@ -1,4 +1,4 @@
-package com.example; // This matches your exact folder path!
+package com.example;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
