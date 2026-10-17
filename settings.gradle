@@ -1,13 +1,13 @@
 pluginManagement {
-	repositories {
-		maven {
-			name = 'Fabric'
-			url = 'https://maven.fabricmc.net/'
-		}
-		mavenCentral()
-		gradlePluginPortal()
-	}
+    repositories {
+        maven { url = "https://fabricmc.net" }
+        mavenCentral()
+        gradlePluginPortal()
+    }
 }
 
-// Should match your modid
-rootProject.name = 'modid'
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.9-SNAPSHOT'
+}
+
+rootProject.name = 'unobtainableblocks'
